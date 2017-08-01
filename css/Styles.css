@@ -1,51 +1,156 @@
-body {
-    margin: 0;
-    padding-top: 70px;
+body, html {
+  margin: 0;
+  height: 100%;
 }
 
 .navbar-default {
-    background-color: transparent;
-    padding: 25px 0;
-    background: transparent;
-    -webkit-transition: padding .3s;
-    -moz-transition: padding .3s;
-    transition: padding .3s;
-    border: none;
-
+  background-color: transparent;
+  padding: 25px 0;
+  background: transparent;
+  -webkit-transition: padding .3s;
+  -moz-transition: padding .3s;
+  transition: padding .3s;
+  border: none;
 }
 
-.navbar-brand { 
-    font-family: Kaushan Script;
-    font-size: 50px;
-
-}
-
-header {
-    background-image: url(../img/header-bg.jpg);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+.service {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
     text-align: center;
-    color: #fff;
 }
 
+.container-fluid{
+
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+
+
+
+}
+.meet {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 75px;
+    margin-bottom: 50px;
+}
+
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.navbar-brand {
+  font-family: Kaushan Script;
+  font-size: 50px;
+}
+
+ul {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+header {
+  background-image: url(https://www.keithjamesdesigns.com/wp-content/uploads/2014/11/header-bg-lg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  width: 100%;
+  height: 700px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  text-align: center;
+  color: #fff;
+  padding-top: 90px;
+}
+
+
+.wellcome {
+  font-family: 'Roboto Slab', serif;
+  font-size: 40px;
+}
+.row {
+  text-align: center;
+}
 .col-centrada {
-    float: none;
-    margin: 0 auto;
+  float: none;
+  margin: 0 auto;
 }
 
 .portafolio {
-    background-color: LightGray;
+  background-color: LightGray;
 }
 
-.thumbnail {
+.portfolio-caption {
+    background-color: white;
     max-width: 340px;
     margin: 0 auto;
     background-color: #fff;
     text-align: center;
     padding: 25px;
+
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 85px;
+  font-weight: bold;
 }
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+h4 {
+  font-family: "Montserrat","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+p {
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+}
+
+
+section #team {
+    border-radius: 50%;
+    text-align: center;
+
+    }    
+
+    .team-member {
+    text-align: center;
+    margin-bottom: 50px
+}
+
+.team-member img {
+    margin: 0 auto;
+    border: 7px solid #fff
+}
+
+.team-member h4 {
+    margin-top: 25px;
+    margin-bottom: 0;
+    text-transform: none
+}
+
+.team-member p {
+    margin-top: 0
+}
+
+section#contact {
+    background-color: black;
+    background-image: url(img/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
